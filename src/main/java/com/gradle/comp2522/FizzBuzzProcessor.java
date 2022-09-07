@@ -1,9 +1,19 @@
-package comp2522;
+package com.gradle.comp2522;
+
+/**
+ * Making a FizzBuzz processor.
+ */
 
 public class FizzBuzzProcessor {
-  public static void main(String[] args) {
+  /**
+   * This is just for practice.
+   *
+   * @param args unsed.
+   *
+   */
 
-  System.out.println("Hello Paul!");
+  public static void main(String[] args) {
+    System.out.println("Hello Paul!");
 
 
 
@@ -12,6 +22,12 @@ public class FizzBuzzProcessor {
     }
   }
 
+  /**
+   * This is the answer to classic fizzBuzz question.
+   *
+   * @param fizzBuzz the fizzbuzz value.
+   * @return a string of fizzbuzz values.
+   */
   public static String convert(int fizzBuzz) {
     if (fizzBuzz % 15 == 0) {
       return "FizzBuzz";

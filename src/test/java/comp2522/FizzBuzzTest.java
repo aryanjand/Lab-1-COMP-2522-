@@ -1,5 +1,6 @@
 package comp2522;
 
+import com.gradle.comp2522.FizzBuzzProcessor;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
